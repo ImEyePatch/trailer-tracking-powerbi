@@ -1,0 +1,6 @@
+version,observed_seconds,display_time,notes
+original,540,~9:00,"Approximate baseline"
+binary_and_list_buffering,489,8:09,"Binary.Buffer per page + List.Buffer page list"
+buffering_plus_gzip,290,4:50,"Added Accept-Encoding: gzip"
+gzip_single_global_reduction,220,3:40,"Collect raw pages, transform/reduce once"
+raw_pagination_test,270,~4:30,"Separate run; demonstrates timing variability, not transformation cost"

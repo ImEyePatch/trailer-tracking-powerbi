@@ -1,0 +1,49 @@
+# Secrets / local config
+.env
+.env.*
+!.env.example
+*.secret
+*.secrets
+credentials.*
+secrets.*
+
+# Production Power BI artifacts - intentionally excluded from this public repo
+*.pbix
+*.pbit
+*.pbip
+
+# Diagnostic / crash / trace artifacts
+*.dmp
+*.dump
+*.diag
+*.trace
+*.etl
+FrownSnapShot*
+PerformanceTraces*
+*QueryDiagnostics*
+*diagnostic*.zip
+*crash*.zip
+
+# Archives can accidentally contain raw exports or credentials
+*.zip
+*.7z
+*.rar
+
+# Raw/operational exports
+raw/
+exports/
+private/
+production/
+*.bak
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

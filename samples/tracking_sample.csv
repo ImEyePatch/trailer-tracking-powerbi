@@ -1,0 +1,4 @@
+Asset ID,Location,Landmark,Status,Speed,Duration [h],Idle [h],Event Date,Fleet
+TRAILER-001,"Example City, ST",EXAMPLE HUB,Stopped,0,2.5,2.5,2026-09-01T12:00:00Z,A
+TRAILER-002,"Sample Town, ST",,Moving,52.4,0.8,0.0,2026-09-01T12:03:00Z,A
+TRAILER-003,"Demo City, ST",DEMO YARD,Stopped,0,6.1,6.1,2026-09-01T11:58:00Z,B
