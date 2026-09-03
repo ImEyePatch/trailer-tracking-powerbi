@@ -209,8 +209,3 @@ See [`docs/resources.md`](docs/resources.md). Key resources included:
 - Power BI community: https://www.reddit.com/r/PowerBI/
 - The One Billion Row Challenge: https://github.com/gunnarmorling/1brc
 - Microsoft Power Query best practices and query-evaluation guidance.
-
-## Important note on ownership
-
-This repository should remain a **sanitized portfolio reconstruction**. Do not upload employer-owned PBIX files, production SQL/M code, raw exports, internal screenshots, vendor credentials, crash packages, or data unless you have explicit permission to publish them.
-
